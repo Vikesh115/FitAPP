@@ -42,7 +42,7 @@ const ViewWorkoutPlans = ({ navigation }) => {
         },
         {
             name: 'Sholder',
-            image: require('../assets/pexels-photo-1547248.jpeg'),
+            image: require('../assets/pexels-photo-1547248.webp'),
             workouts: [
                 { name: 'Plate Front Raise', videoUrl: require('../assets/plate-front-raise.gif') },
                 { name: 'Cable Seated Latrel Raise', videoUrl: require('../assets/cabled-seated-rear-lateral-raise.gif') },

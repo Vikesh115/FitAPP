@@ -1,0 +1,10 @@
+workflows:
+  react_native_build:
+    name: React Native Build
+    scripts:
+      - name: Install dependencies
+        script: npm install
+      - name: Run tests
+        script: npm test
+      - name: Build APK
+        script: react-native run-android --variant=release
