@@ -83,6 +83,7 @@ import DashboardScreen from './screens/DashboardScreen';
 import DietDetails from './components/DietDetails';
 import WeightGainScreen from './components/WeightGainScreen';
 import WeightLossScreen from './components/WeightLossScreen';
+import BmrCalculator from './components/BmrCalculator';
 
 const homeName = "Home";
 const DashboardName = "Dashboard";
@@ -110,6 +111,7 @@ const DashStack = () => (
     <Stack.Screen name="WeightLossScreen" component={WeightLossScreen} />
     <Stack.Screen name="ViewWorkoutPlans" component={ViewWorkoutPlans}/>
     <Stack.Screen name="WorkoutDetails" component={WorkoutDetails}/>
+    <Stack.Screen name="BmrCalculator" component={BmrCalculator}/>
   </Stack.Navigator>
 );
 const SettingStack = () => (

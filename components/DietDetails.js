@@ -24,6 +24,14 @@ const DietDetails = ({ navigation }) => {
                     <Text style={styles.buttonText}>Weight Loss</Text>
                 </TouchableOpacity>
             </View>
+            <View style={styles.buttonContainer}>
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={() => navigation.navigate('BmrCalculator')}
+                >
+                    <Text style={styles.buttonText}>Calculate BMR</Text>
+                </TouchableOpacity>
+            </View>
         </ImageBackground>
         </View>
     );

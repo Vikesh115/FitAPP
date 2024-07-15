@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
         marginRight: 10,
     },
     input: {
-        color: 'white',
+        color: 'black',
         height: 40,
         width: 100,
         borderWidth: 1,
